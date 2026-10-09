@@ -66,9 +66,9 @@ The benchmark is designed for research evaluation. It does not provide clinical 
 This article is currently under peer review.
 
 ## <img src="./figures/icon-contact.svg" width="30" alt=""> Contact
-
-
+For technical questions, suggestions, or collaborations, please open an issue or contact:
+- Zhichuan Xu: zhichuanxu2001@wchscu.cn
+- Jie Song: songjie02_09@163.com
 
 ## License
-
-The public code and release materials are distributed under the MIT License where applicable. Please check the original source-paper and dataset terms before redistributing source-derived data.
+MIT License  

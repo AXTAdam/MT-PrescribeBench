@@ -17,19 +17,12 @@
 
 ## <img src="./figures/icon-overview.svg" width="30" alt=""> Overview
 
-Music-based interventions must be adapted to a person's clinical context, therapeutic goals, treatment setting, intervention procedures, musical characteristics, and treatment schedule. These requirements make structured prescription planning and evidence-linked song selection difficult to evaluate with generic language-model tests.
+This is the official data and code repository for the paper:
+MT-PrescribeBench: A Benchmark for Evaluating Large Language Models in Personalized Music-Based Intervention Planning and Song-Level Recommendation
+Zhichuan Xu¹,²¶, Jie Song¹,²¶, Cheng Bi¹,², Yuxin Zhang¹,², Xin Zheng¹,², Meng Xiao¹,², Xiaoran Li¹,², Qiongfang Cao¹,², Ziyu Lu¹,², Hao Yang1,3, Xiaoying Mao4, Bairong Shen¹,²*
+Abstract
+Cognitive impairment, mental disorders, and pain impose substantial disease and caregiving burdens, creating a need for personalized and evidence-informed music-based interventions. However, designing such interventions requires the coordinated interpretation of patient or clinical context, therapeutic goals, intervention procedures, musical parameters, and treatment schedules. Although large language models have shown promise in general medical information processing, their ability to generate structured music-based intervention prescriptions and select clinically appropriate songs remains unclear. We developed MT-PrescribeBench, an evidence-linked benchmark designed to evaluate these capabilities across multiple levels of intervention planning. The benchmark included 102 case-based questions for structured prescription generation and 435 targeted questions assessing prescription completion, treatment-goal matching, clinical-context matching, and Song-Level Recommendation. GPT-5.6-sol, DeepSeek-V4-Pro, and DeepSeek-V4-Flash were evaluated against literature-derived reference answers using field-specific metrics and task-level accuracy. In structured prescription generation, categorical accuracy ranged from 64.71% to 68.63%, multi-label F1 scores from 61.36% to 64.89%, and temporal-structure F1 scores from 39.10% to 46.35%. Performance was relatively strong for implementation setting but weaker for genre, music selection strategy, intervention duration, study period, and tempo prediction. Among the targeted tasks, prescription completion, treatment-goal matching, and clinical-context matching achieved accuracies of 64.06%–77.22%, whereas exact-match accuracy for Song-Level Recommendation reached 86.73%–89.80% when reference prescriptions were provided. No model showed a consistent overall advantage. These findings indicate that current large language models can assist with selected structured subtasks, particularly initial prescription drafting and evidence-linked song screening, but remain unreliable in determining core musical parameters and treatment schedules. MT-PrescribeBench provides a reproducible framework for identifying these capability gaps and supporting future human–AI collaboration in personalized music-based intervention planning. 
 
-MT-PrescribeBench is a case-based benchmark for evaluating these capabilities. It connects literature-derived intervention records with structured reference answers and targeted reasoning tasks. The release is intended for reproducible research evaluation and supports field-level error analysis.
-
-The benchmark contains:
-
-- **102 main evaluation cases** for structured prescription generation;
-- **180 Critical Slot Selection items** for prescription completion;
-- **64 treatment-goal matching items**;
-- **93 clinical-context matching items**;
-- **98 Song-Level Recommendation items** for selecting evidence-linked songs from candidate lists.
-
-The main task covers 13 prescription fields across music features, therapy configuration, dose and delivery, setting, and combination therapy. Scoring includes categorical accuracy, multi-label F1, temporal-structure F1, and symmetric BPM/tempo mean absolute error. Extension tasks use task-specific accuracy or exact-match rules.
 
 ## <img src="./figures/icon-resources.svg" width="30" alt=""> Resources
 

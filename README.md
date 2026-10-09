@@ -37,18 +37,6 @@ Cognitive impairment, mental disorders, and pain impose substantial disease and 
 - `Code/Benchmark_Prompts.py`: public prompt templates.
 - `Outputs/`: released raw and evaluated example results with neutral model labels.
 
-## <img src="./figures/icon-reproduce.svg" width="30" alt=""> Reproducibility
-
-The public package uses repository-relative paths. Provider-specific runtime adapters, credentials, endpoints, and private execution configuration are excluded from the release.
-
-```powershell
-python -m venv .venv
-.venv\Scripts\Activate.ps1
-python -m pip install pandas openpyxl jupyter
-python -m py_compile Code\score.py Code\Benchmark_Prompts.py
-```
-
-The notebooks in `Code/` document the public execution and evaluation workflow. To run a model locally, supply a compatible provider adapter through your own environment and keep all credentials outside the repository.
 
 ## <img src="./figures/icon-evaluation.svg" width="30" alt=""> Evaluation Tasks
 
@@ -75,16 +63,11 @@ The benchmark is designed for research evaluation. It does not provide clinical 
 
 ## <img src="./figures/icon-citation.svg" width="30" alt=""> Citation
 
-If you use MT-PrescribeBench, please cite the accompanying article and this repository. The final article citation will be added after publication.
-
-```text
-MT-PrescribeBench. Data and evaluation package.
-https://github.com/AXTAdam/MT-PrescribeBench
-```
+This article is currently under peer review.
 
 ## <img src="./figures/icon-contact.svg" width="30" alt=""> Contact
 
-For questions about the benchmark, please open a GitHub issue. Do not include API credentials, private patient information, or unpublished model outputs in an issue.
+
 
 ## License
 

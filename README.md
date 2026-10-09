@@ -1,4 +1,18 @@
-<div align="center">
+## <img src="./figures/icon-overview.svg" width="30" alt=""> Overview
+
+Music-based interventions must be adapted to a person's clinical context, therapeutic goals, treatment setting, intervention procedures, musical characteristics, and treatment schedule. These requirements make structured prescription planning and evidence-linked song selection difficult to evaluate with generic language-model tests.
+
+MT-PrescribeBench is a case-based benchmark for evaluating these capabilities. It connects literature-derived intervention records with structured reference answers and targeted reasoning tasks. The release is intended for reproducible research evaluation and supports field-level error analysis.
+
+The benchmark contains:
+
+- **102 main evaluation cases** for structured prescription generation;
+- **180 Critical Slot Selection items** for prescription completion;
+- **64 treatment-goal matching items**;
+- **93 clinical-context matching items**;
+- **98 Song-Level Recommendation items** for selecting evidence-linked songs from candidate lists.
+
+- <div align="center">
   <img src="./figures/MT-PrescribeBench_overview.png" alt="MT-PrescribeBench overview" width="100%">
 </div>
 
@@ -14,20 +28,6 @@
 </p>
 
 ---
-
-## <img src="./figures/icon-overview.svg" width="30" alt=""> Overview
-
-Music-based interventions must be adapted to a person's clinical context, therapeutic goals, treatment setting, intervention procedures, musical characteristics, and treatment schedule. These requirements make structured prescription planning and evidence-linked song selection difficult to evaluate with generic language-model tests.
-
-MT-PrescribeBench is a case-based benchmark for evaluating these capabilities. It connects literature-derived intervention records with structured reference answers and targeted reasoning tasks. The release is intended for reproducible research evaluation and supports field-level error analysis.
-
-The benchmark contains:
-
-- **102 main evaluation cases** for structured prescription generation;
-- **180 Critical Slot Selection items** for prescription completion;
-- **64 treatment-goal matching items**;
-- **93 clinical-context matching items**;
-- **98 Song-Level Recommendation items** for selecting evidence-linked songs from candidate lists.
 
 The main task covers 13 prescription fields across music features, therapy configuration, dose and delivery, setting, and combination therapy. Scoring includes categorical accuracy, multi-label F1, temporal-structure F1, and symmetric BPM/tempo mean absolute error. Extension tasks use task-specific accuracy or exact-match rules.
 

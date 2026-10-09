@@ -1,3 +1,20 @@
+<h1 align="center">MT-PrescribeBench</h1>
+
+<p align="center">A benchmark for personalized, evidence-linked music-based intervention planning and song selection.</p>
+
+<p align="center">
+  <a href="./LICENSE"><img src="https://img.shields.io/badge/License-MIT-green" alt="License: MIT"></a>
+  <img src="https://img.shields.io/badge/Main%20cases-102-2f6f9f" alt="102 main cases">
+  <img src="https://img.shields.io/badge/Extended%20items-435-e07a45" alt="435 extended items">
+  <img src="https://img.shields.io/badge/Python-3.10%2B-3776ab" alt="Python 3.10 or newer">
+</p>
+
+- <div align="center">
+  <img src="./figures/MT-PrescribeBench_overview.png" alt="MT-PrescribeBench overview" width="100%">
+</div>
+
+---
+
 ## <img src="./figures/icon-overview.svg" width="30" alt=""> Overview
 
 Music-based interventions must be adapted to a person's clinical context, therapeutic goals, treatment setting, intervention procedures, musical characteristics, and treatment schedule. These requirements make structured prescription planning and evidence-linked song selection difficult to evaluate with generic language-model tests.
@@ -11,23 +28,6 @@ The benchmark contains:
 - **64 treatment-goal matching items**;
 - **93 clinical-context matching items**;
 - **98 Song-Level Recommendation items** for selecting evidence-linked songs from candidate lists.
-
-- <div align="center">
-  <img src="./figures/MT-PrescribeBench_overview.png" alt="MT-PrescribeBench overview" width="100%">
-</div>
-
-<h1 align="center">MT-PrescribeBench</h1>
-
-<p align="center">A benchmark for personalized, evidence-linked music-based intervention planning and song selection.</p>
-
-<p align="center">
-  <a href="./LICENSE"><img src="https://img.shields.io/badge/License-MIT-green" alt="License: MIT"></a>
-  <img src="https://img.shields.io/badge/Main%20cases-102-2f6f9f" alt="102 main cases">
-  <img src="https://img.shields.io/badge/Extended%20items-435-e07a45" alt="435 extended items">
-  <img src="https://img.shields.io/badge/Python-3.10%2B-3776ab" alt="Python 3.10 or newer">
-</p>
-
----
 
 The main task covers 13 prescription fields across music features, therapy configuration, dose and delivery, setting, and combination therapy. Scoring includes categorical accuracy, multi-label F1, temporal-structure F1, and symmetric BPM/tempo mean absolute error. Extension tasks use task-specific accuracy or exact-match rules.
 

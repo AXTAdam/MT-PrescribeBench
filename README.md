@@ -1,6 +1,6 @@
 <h1 align="center">MT-PrescribeBench</h1>
 
-<p align="center">A benchmark for personalized, evidence-linked music-based intervention planning and song selection.</p>
+<p align="center">A Benchmark for Evaluating Large Language Models in Personalized Music-Based Intervention Planning and Song-Level Recommendation.</p>
 
 <p align="center">
   <a href="./LICENSE"><img src="https://img.shields.io/badge/License-MIT-green" alt="License: MIT"></a>

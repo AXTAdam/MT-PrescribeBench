@@ -63,7 +63,7 @@ The benchmark is designed for research evaluation. It does not provide clinical 
 
 ## <img src="./figures/icon-citation.svg" width="30" alt=""> Citation
 
-This article is currently under peer review.
+This article is currently under review.
 
 ## <img src="./figures/icon-contact.svg" width="30" alt=""> Contact
 For technical questions, suggestions, or collaborations, please open an issue or contact:
